@@ -19,11 +19,11 @@ class MyApp extends StatelessWidget {
               CircleAvatar(
                 radius: 50.0,
                 backgroundColor: Colors.teal[100],
-                backgroundImage: NetworkImage(
+                backgroundImage: const NetworkImage(
                   'https://media.licdn.com/dms/image/v2/D5603AQEpiT7Y3UBaug/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1671021547606?e=1742428800&v=beta&t=LXNguVgQTd50AqSV4l4a45sQ84QdSMLFaPd6f2lYUeI',
                 ),
               ),
-              Text(
+              const Text(
                 "Ayesh Dilshan",
                 style: TextStyle(
                   fontFamily: 'Pacifico',
@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
                   color: Colors.teal[100],
                 ),
               ),
-              Card(
+              const Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
@@ -70,7 +70,7 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
-              Card(
+              const Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
